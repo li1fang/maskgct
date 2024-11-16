@@ -1,7 +1,32 @@
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 环境
 .env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# 模型和数据
+pretrained/
+acoustic_codec/
+bins/
 models/
-logs/
-.vscode/
+
+# 系统
 .DS_Store
+.vscode/
+*.log
+
+# 输出
+output/
+results/
+logs/
+
+# Docker
+.docker/
