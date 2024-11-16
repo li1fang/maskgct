@@ -3,30 +3,45 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# 环境
-.env
-.venv
-env/
+# Virtual Environment
 venv/
 ENV/
-.conda/
+env/
+.env
 
-# 模型和数据
-pretrained/
-acoustic_codec/
-bins/
-models/
-
-# 系统
-.DS_Store
+# IDE
+.idea/
 .vscode/
-*.log
+*.swp
+*.swo
 
-# 输出
-output/
-results/
+# Models and Data
+models/*
+!models/.gitkeep
+pretrained/*
+!pretrained/.gitkeep
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Logs
 logs/
-
-# Docker
-.docker/
+*.log
