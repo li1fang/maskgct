@@ -45,3 +45,40 @@ pretrained/*
 # Logs
 logs/
 *.log
+# Docker related
+docker_backups/
+docker/*/
+*.tar
+*.tar.gz
+
+# Build and Deploy
+build/
+dist/
+wheels/
+installers/
+packages/
+
+# Large files and models
+*.bin
+*.h5
+*.model
+*.onnx
+*.tflite
+
+# Local development
+local_configs/
+temp/
+.local/
+
+# Backup files
+*_backup*/
+*.bak
+*_backup_*/
+*_backup.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Custom project specific
+maskgct_gpu_backup*
